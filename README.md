@@ -2,7 +2,7 @@
 
 A simple and elegant weather application which allows users to check the current weather details by entering the name of a city.
 
-<img src="./assets/chicago.png" alt="image of weather details for chicago" style="width:250px; height:250px;">
+<img src="./assets/chicago.png" alt="image of weather details for chicago" style="width:400px; height:400px;">
 
 ## Features
 
@@ -33,13 +33,13 @@ A simple and elegant weather application which allows users to check the current
 ## Snippets
 *Showing weather for Cupertino, California*
 
-<img src="./assets/cupertino.png" alt="image of weather details for cupertino" style="width:250px; height:250px;">
+<img src="./assets/cupertino.png" alt="image of weather details for cupertino" style="width:400px; height:400px;">
 
 <br>
 
 *Error message is diplayed below upon looking for an invalid city name*
 
-<img src="./assets/city_name_error.png" alt="image of weather app showing error message for invalid city name" style="width:250px; height:250px;">
+<img src="./assets/city_name_error.png" alt="image of weather app showing error message for invalid city name" style="width:400px; height:400px;">
 
 
 ## Installation
