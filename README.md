@@ -2,6 +2,8 @@
 
 A simple and elegant weather application which allows users to check the current weather details by entering the name of a city.
 
+Access the application here: [https://myweathercheck.netlify.app/](https://myweathercheck.netlify.app/)
+
 <img src="./assets/chicago.png" alt="image of weather details for chicago" style="width:400px; height:400px;">
 
 ## Features
