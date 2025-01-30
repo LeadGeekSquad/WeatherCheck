@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 document.getElementById("getWeatherBtn").addEventListener('click',() => {
 
     //getting the location value from cityInput
@@ -67,8 +69,9 @@ document.getElementById("getWeatherBtn").addEventListener('click',() => {
                                 `;
     })
     
+    const API_KEY = process.env.WEATHER_API_KEY ;
     //fetching the data and using input location in the api request
-    const obj = fetch(`http://api.weatherapi.com/v1/current.json?key=cb6538f8a8fc4df1be492634250201&q=${location}&aqi=yes`);
+    const obj = fetch(`https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}&aqi=yes`);
 
     //using the object with promises
     obj
